@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Add Product</h2>
+        <form class="row g-3" method="post" action="addProduct">
+            <div class="col-md-6">
+                <label class="form-label">Name: </label>
+                <input class="form-control" name="nameProduct" />
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Model:</label>
+                <input class="form-control" name="nameModel" />
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Price: </label>
+                <input class="form-control" name="priceProduct" type="number" />
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Count: </label>
+                <input class="form-control" name="countProduct" type="number" />
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Name producer: </label>
+                <input class="form-control" name="nameProducer" />
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Country producer: </label>
+                <input class="form-control" name="countryProducer" />
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Name category: </label>
+                <input class="form-control" name="nameCategory" />
+            </div>
+
+            <div>
+                <button type="submit" class="btn btn-success">Create</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
